@@ -25,6 +25,15 @@ function _parseTopdocComment(node, regex, includeNodes) {
 }
 
 /**
+ *  Private: A compare function that sorts array members by their 'name' property.
+ */
+function _nameCompareFunction(a, b) {
+  if (a.name < b.name) return -1;
+  if (a.name > b.name) return 1;
+  return 0;
+}
+
+/**
  *  Private: goes through each css node and finds Topdoc comments.
  *
  *  * `css` {Object} PostCSS root node object.
@@ -47,10 +56,11 @@ function _findTopdocComments(css, regex, includeNodes) {
       debug(`Added ${node.type} to ${components[currentComponentIndex].name}`);
     }
   });
-  return components;
+  // TODO: sort function could be passed as an option
+  // if someone needs that but for now alpha is a good default
+  return components.sort(_nameCompareFunction);
 }
-
-/**
+/*
  *  TopdocParser Class
  */
 export default class TopdocParser {
