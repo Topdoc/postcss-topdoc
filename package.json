@@ -42,7 +42,6 @@
     "instrument": false
   },
   "dependencies": {
-    "clean-css": "^4.1.7",
     "debug": "^3.1.0",
     "js-yaml": "^3.9.1",
     "postcss": "^7.0.1"
