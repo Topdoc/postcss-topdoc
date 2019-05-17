@@ -1,6 +1,6 @@
 {
   "name": "postcss-topdoc",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Topdoc parser built in PostCSS",
   "main": "lib/",
   "scripts": {
@@ -42,27 +42,26 @@
     "instrument": false
   },
   "dependencies": {
-    "clean-css": "^4.1.7",
-    "debug": "^3.1.0",
-    "js-yaml": "^3.9.1",
-    "postcss": "^7.0.1"
+    "debug": "^4.1.1",
+    "js-yaml": "^3.13.1",
+    "postcss": "^7.0.16"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.55",
-    "@babel/core": "^7.0.0-beta.55",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.55",
-    "@babel/polyfill": "^7.0.0-beta.55",
-    "@babel/preset-env": "^7.0.0-beta.55",
-    "@babel/register": "^7.0.0-beta.55",
-    "@babel/runtime": "^7.0.0-beta.55",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
     "atomdoc-cli": "^1.1.0",
-    "ava": "1.0.0-beta.6",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-istanbul": "^4.1.6",
-    "codecov": "^3.0.2",
-    "eslint": "^5.2.0",
+    "ava": "^1.4.1",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-istanbul": "^5.1.4",
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-async-await": "0.0.0",
-    "nyc": "^12.0.2"
+    "nyc": "^14.1.1"
   },
   "config": {
     "commitizen": {
