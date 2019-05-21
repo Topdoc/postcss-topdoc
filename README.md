@@ -1,3 +1,5 @@
+**Repo Archived**: the project has been moved to be part of the [Topdoc monorepo](https://github.com/Topdoc/topdoc/tree/master/packages/postcss-topdoc).
+
 # PostCSS Topdoc
 
 [![Build Status](https://travis-ci.org/Topdoc/postcss-topdoc.svg?branch=master)](https://travis-ci.org/Topdoc/postcss-topdoc) [![codecov](https://codecov.io/gh/Topdoc/postcss-topdoc/branch/master/graph/badge.svg)](https://codecov.io/gh/Topdoc/postcss-topdoc) [![Dependency Status](https://david-dm.org/Topdoc/postcss-topdoc.svg)](https://david-dm.org/Topdoc/postcss-topdoc) [![npm version](https://badge.fury.io/js/postcss-topdoc.svg)](https://badge.fury.io/js/postcss-topdoc)
